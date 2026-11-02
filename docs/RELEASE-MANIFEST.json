@@ -9,8 +9,8 @@
     },
     {
       "name": "RoadMax-1.5.0-Demo-Project.zip",
-      "bytes": 1010884,
-      "sha256": "0b4f1a2acf7737c9613ac3db9732920aa0a6672d60f6156fbe9ae9be234b6cf5"
+      "bytes": 1009026,
+      "sha256": "605b08e90300249a0f7ba2cdc7c36f670d40342df0e27c0f19fe2c0ea6a1324e"
     },
     {
       "name": "RoadMax-1.5.0-Quick-Start-RU.md",
@@ -65,5 +65,6 @@
       "capture": "Native Electron Portable; synthetic profile; no compositing."
     }
   ],
-  "historicalReports": 46
+  "historicalReports": 46,
+  "demoArchiveEncoding": "UTF-8 (ZIP flag 0x800); packaging correction; application EXE unchanged"
 }

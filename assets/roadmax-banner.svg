@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="360" viewBox="0 0 1440 360" role="img" aria-labelledby="title desc">
+<title id="title">RoadMax · FORQO</title>
+<desc id="desc">RoadMax — идеи, планы и документы в одном пространстве.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#171d21"/><stop offset="1" stop-color="#080c0e"/></linearGradient>
+<linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a7afb4"/><stop offset=".4" stop-color="#515c64"/><stop offset="1" stop-color="#242c31"/></linearGradient>
+<linearGradient id="fold" x1="0" y1="0" x2="1" y2=".3"><stop stop-color="#242c32"/><stop offset=".5" stop-color="#68747d"/><stop offset="1" stop-color="#161d22"/></linearGradient>
+<linearGradient id="orange" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#ff6100"/><stop offset="1" stop-color="#ff941c"/></linearGradient>
+</defs>
+<rect width="1440" height="360" rx="20" fill="url(#bg)"/>
+<path d="M1130 0h310v360H990Z" fill="#fff" opacity=".025"/>
+<g transform="translate(65 38) scale(.44)"><path d="M22 68 79 10Q86 3 98 3H224L175 57Q171 62 162 62H67Q42 62 22 86Z" fill="url(#metal)" stroke="#a8b3ba" stroke-opacity=".35" stroke-width="1.5"/>
+<path d="M22 86Q22 64 48 62H90L22 142Z" fill="url(#fold)"/>
+<path d="M22 172 95 92H182L59 224Q52 232 43 232H22Z" fill="url(#metal)"/>
+<path d="M56 148 108 88Q112 84 121 84H189L149 132Q144 139 134 139H72Z" fill="#05090c" opacity=".7"/>
+<path d="M61 143 110 89Q115 83 125 83H190L151 130Q146 137 136 137H73Z" fill="url(#orange)"/></g>
+<g font-family="Segoe UI,Arial,sans-serif">
+<text x="195" y="95" font-size="45" font-weight="700" letter-spacing="5" fill="#edf1f4">RoadMax</text>
+<text x="197" y="126" font-size="18" letter-spacing="2" fill="#9aa5ad">BY FORQO</text>
+<text x="72" y="220" font-size="48" font-weight="600" fill="#f1f4f6">Идеи, планы и документы.</text>
+<text x="75" y="265" font-size="24" fill="#b9c2c9">Одно пространство для всего проекта.</text>
+<path d="M75 307h48" stroke="#ff8520" stroke-width="4"/>
+<text x="143" y="315" font-size="22" font-weight="600" fill="#edf1f4">Windows</text>
+<circle cx="268" cy="307" r="3" fill="#77838d"/>
+<text x="291" y="315" font-size="22" font-weight="600" fill="#edf1f4">В разработке</text>
+</g>
+</svg>

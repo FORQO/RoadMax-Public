@@ -1,0 +1,69 @@
+{
+  "version": "1.5.0",
+  "portableSha256": "8089a2e18a6b09615f9bcf251ff280826742ed7522001bc197f52a68790424c5",
+  "assets": [
+    {
+      "name": "RoadMax-1.5.0-Build-Info.json",
+      "bytes": 1927,
+      "sha256": "60c21f559eae6003b12017ba2da278dc86b66ff352a530bdcf17083339a93106"
+    },
+    {
+      "name": "RoadMax-1.5.0-Demo-Project.zip",
+      "bytes": 1010884,
+      "sha256": "0b4f1a2acf7737c9613ac3db9732920aa0a6672d60f6156fbe9ae9be234b6cf5"
+    },
+    {
+      "name": "RoadMax-1.5.0-Quick-Start-RU.md",
+      "bytes": 6289,
+      "sha256": "1c36215723a8479d2a362fc2487ec0cd79a8e33ef09f00679c8453b643944672"
+    },
+    {
+      "name": "RoadMax-1.5.0-Third-Party-Notices.zip",
+      "bytes": 391610,
+      "sha256": "7414b47d40057228671d0168af4fb2cda36a8159ea700f1e551e4e9833c43023"
+    },
+    {
+      "name": "RoadMax-Image-Codecs-Source-2026-11-02.zip",
+      "bytes": 8651075,
+      "sha256": "a60b890590b0ba1c3a271f444d77a9efcf5fc5721d917319acbe3e4490ab2c72"
+    },
+    {
+      "name": "RoadMax-Portable-1.5.0-Windows-x64.exe",
+      "bytes": 108009496,
+      "sha256": "8089a2e18a6b09615f9bcf251ff280826742ed7522001bc197f52a68790424c5"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "assets/screenshots/board-1.5.png",
+      "sha256": "9cd3067307475ffd477be751ac4e8bdb8c79abdef6f8a44b44565b83398a1b50",
+      "capture": "Native Electron Portable; synthetic profile; no compositing."
+    },
+    {
+      "file": "assets/screenshots/dashboard-1.5.png",
+      "sha256": "7d1e4e3433a7c646c4d39f5cb373627dacb89772e9d61cf921c1719142f6bb73",
+      "capture": "Native Electron Portable; synthetic profile; no compositing."
+    },
+    {
+      "file": "assets/screenshots/image-editor-1.5.png",
+      "sha256": "c84cb071fbc9e8db192c69e4112906b466742aedceea53738b97eebdf61eebb4",
+      "capture": "Native Electron Portable; synthetic profile; no compositing."
+    },
+    {
+      "file": "assets/screenshots/pdf-workspace-1.5.png",
+      "sha256": "c8e9835d709aa7273a91d6cef55ac422e86631056d3a20480bbc7d4a26736010",
+      "capture": "Native Electron Portable; synthetic profile; no compositing."
+    },
+    {
+      "file": "assets/screenshots/spreadsheets-1.5.png",
+      "sha256": "b719595b33d38783fb6e98f2b7691f1bef19be9c87962d0a36badfbdb902267e",
+      "capture": "Native Electron Portable; synthetic profile; no compositing."
+    },
+    {
+      "file": "assets/screenshots/word-1.5.png",
+      "sha256": "b3b22233e1db9a2f9a6f460a8eaaa9011f141358dfa7b30dbacfe1b6e17b2978",
+      "capture": "Native Electron Portable; synthetic profile; no compositing."
+    }
+  ],
+  "historicalReports": 46
+}

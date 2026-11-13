@@ -2,7 +2,7 @@
 
 <p align="center"><b>Идеи, планы и документы — в одном пространстве.</b><br>Локальное приложение для Windows от <a href="https://github.com/FORQO">FORQO</a>.</p>
 
-<p align="center"><a href="https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.19/RoadMax-Portable-2.3.19.exe"><b>Скачать RoadMax 2.3.19 · Windows x64 · Portable</b></a><br><a href="https://github.com/FORQO/RoadMax-Public/releases/tag/v2.3.19">Релиз и контрольные суммы</a> · <a href="docs/QUICK-START-RU.md">Как начать</a> · <a href="https://github.com/FORQO/RoadMax-Public/issues/new/choose">Обратная связь</a></p>
+<p align="center"><a href="https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.19/RoadMax-Portable-2.3.19.exe"><b>Скачать RoadMax 2.3.19 · Windows x64 · Portable</b></a><br><a href="https://roadmax.dskforge.com/#">Официальный сайт RoadMax</a> · <a href="https://github.com/FORQO/RoadMax-Public/releases/tag/v2.3.19">Релиз и контрольные суммы</a> · <a href="docs/QUICK-START-RU.md">Как начать</a> · <a href="https://github.com/FORQO/RoadMax-Public/issues/new/choose">Обратная связь</a></p>
 
 ## Новое в RoadMax 2.3.19
 
@@ -36,39 +36,28 @@
 | **Готовить документы** | DOCX: абзацы и заголовки, шрифты и начертания, списки, ссылки, таблицы, изображения, поиск и Undo/Redo. Сохранение DOCX и локальный экспорт PDF. |
 | **Хранить и переносить** | Локальное сохранение, резервные копии .flowboard и переносимые проекты .roadmax с вложениями. Оригинал файла и рабочая версия хранятся отдельно. |
 
-## Галерея выпуска 1.5.0
+## Интерфейс RoadMax 2.3.19
 
-Снимки ниже показывают редакторы и библиотеку в публичном выпуске 1.5.0 на демонстрационных данных.
+На снимках открыт демонстрационный проект «Запуск продукта». Нажмите на снимок, чтобы рассмотреть его в полном размере.
 
-![Доска RoadMax 1.5.0](assets/screenshots/board-1.5.png)
+| Экран | Светлая тема | Тёмная тема |
+| :--- | :---: | :---: |
+| **Доска** | [![Доска, светлая тема](assets/screenshots/2.3.19/board-light.webp)](assets/screenshots/2.3.19/board-light.webp) | [![Доска, тёмная тема](assets/screenshots/2.3.19/board-dark.webp)](assets/screenshots/2.3.19/board-dark.webp) |
+| **Библиотека проектов** | [![Библиотека проектов, светлая тема](assets/screenshots/2.3.19/library-light.webp)](assets/screenshots/2.3.19/library-light.webp) | [![Библиотека проектов, тёмная тема](assets/screenshots/2.3.19/library-dark.webp)](assets/screenshots/2.3.19/library-dark.webp) |
+| **Редактор PDF** | [![Редактор PDF, светлая тема](assets/screenshots/2.3.19/pdf-light.webp)](assets/screenshots/2.3.19/pdf-light.webp) | [![Редактор PDF, тёмная тема](assets/screenshots/2.3.19/pdf-dark.webp)](assets/screenshots/2.3.19/pdf-dark.webp) |
+| **Редактор изображений** | [![Редактор изображений, светлая тема](assets/screenshots/2.3.19/image-light.webp)](assets/screenshots/2.3.19/image-light.webp) | [![Редактор изображений, тёмная тема](assets/screenshots/2.3.19/image-dark.webp)](assets/screenshots/2.3.19/image-dark.webp) |
+| **Таблица XLSX** | [![Таблица XLSX, светлая тема](assets/screenshots/2.3.19/sheet-light.webp)](assets/screenshots/2.3.19/sheet-light.webp) | [![Таблица XLSX, тёмная тема](assets/screenshots/2.3.19/sheet-dark.webp)](assets/screenshots/2.3.19/sheet-dark.webp) |
+| **Документ DOCX** | [![Документ DOCX, светлая тема](assets/screenshots/2.3.19/docx-light.webp)](assets/screenshots/2.3.19/docx-light.webp) | [![Документ DOCX, тёмная тема](assets/screenshots/2.3.19/docx-dark.webp)](assets/screenshots/2.3.19/docx-dark.webp) |
 
-### Dashboard — порядок в проектах
+<details>
+<summary>Работа с файлами на доске</summary>
 
-![Dashboard RoadMax 1.5.0 с актуальным логотипом, поиском, избранным и превью](assets/screenshots/dashboard-1.5.png)
+- **PDF.** Колесо меняет масштаб около указателя, временная «Рука» включается удержанием пробела. Двойной щелчок вписывает PDF в окно во всех инструментах; предпросмотр на доске тоже поддерживает масштаб и перемещение.
+- **Изображения.** Поворот, отражение и обрезка; пометки с выбором цвета и толщины; сохранение рабочей версии и экспорт копии. Исходные байты вложения сохраняются.
+- **Таблицы.** Формулы вычисляются встроенным табличным движком. В контрольной книге проверены SUM, AVERAGE, MIN, MAX, COUNT, IF и ссылка на лист с кириллическим названием.
+- **DOCX.** Редактирование и экспорт выполняются локально. Microsoft Word и облачный сервис для этих действий не требуются.
 
-### PDF — страницы и пометки
-
-![PDF внутри RoadMax: миниатюры страниц, поиск, заметки и инструменты пометок](assets/screenshots/pdf-workspace-1.5.png)
-
-Колесо меняет масштаб около указателя, временная «Рука» включается удержанием пробела. Двойной щелчок вписывает PDF в окно во всех инструментах; предпросмотр на доске тоже поддерживает масштаб и перемещение.
-
-### Изображения — базовый редактор
-
-![Редактор изображения в RoadMax с текущим знаком Titanium](assets/screenshots/image-editor-1.5.png)
-
-Поворот, отражение и обрезка; пометки с выбором цвета и толщины; сохранение рабочей версии и экспорт копии. Исходные байты вложения сохраняются.
-
-### Таблицы — листы, значения и формулы
-
-![Встроенный редактор таблиц XLSX в RoadMax](assets/screenshots/spreadsheets-1.5.png)
-
-Формулы вычисляются встроенным табличным движком. В контрольной книге проверены SUM, AVERAGE, MIN, MAX, COUNT, IF и ссылка на лист с кириллическим названием.
-
-### DOCX — документ прямо в программе
-
-![Встроенный редактор DOCX с форматированием, таблицей и изображением](assets/screenshots/word-1.5.png)
-
-Редактирование и экспорт выполняются локально. Microsoft Word и облачный сервис для этих действий не требуются.
+</details>
 
 ## Скачать и запустить
 

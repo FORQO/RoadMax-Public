@@ -2,7 +2,11 @@
 
 <p align="center"><b>Идеи, планы и документы — в одном пространстве.</b><br>Локальное приложение для Windows от <a href="https://github.com/FORQO">FORQO</a>.</p>
 
-<p align="center"><a href="https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.19/RoadMax-Portable-2.3.19.exe"><b>Скачать RoadMax 2.3.19 · Windows x64 · Portable</b></a><br><a href="https://roadmax.dskforge.com/#">Официальный сайт RoadMax</a> · <a href="https://github.com/FORQO/RoadMax-Public/releases/tag/v2.3.19">Релиз и контрольные суммы</a> · <a href="docs/QUICK-START-RU.md">Как начать</a> · <a href="https://github.com/FORQO/RoadMax-Public/issues/new/choose">Обратная связь</a></p>
+<p align="center"><a href="https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.20/RoadMax-Portable-2.3.20.exe"><b>Скачать RoadMax 2.3.20 · Windows x64 · Portable</b></a><br><a href="https://roadmax.dskforge.com/#">Официальный сайт RoadMax</a> · <a href="https://github.com/FORQO/RoadMax-Public/releases/tag/v2.3.20">Релиз и контрольные суммы</a> · <a href="docs/QUICK-START-RU.md">Как начать</a> · <a href="https://github.com/FORQO/RoadMax-Public/issues/new/choose">Обратная связь</a></p>
+
+## Новое в RoadMax 2.3.20
+
+В Windows исправлены рывки при перемещении и масштабировании доски. Настройка отрисовки применяется автоматически при запуске Portable. [Описание и результаты проверки](https://github.com/FORQO/RoadMax-Public/releases/tag/v2.3.20).
 
 ## Новое в RoadMax 2.3.19
 
@@ -61,12 +65,12 @@
 
 ## Скачать и запустить
 
-1. Скачайте **[RoadMax-Portable-2.3.19.exe](https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.19/RoadMax-Portable-2.3.19.exe)** из раздела Assets релиза.
+1. Скачайте **[RoadMax-Portable-2.3.20.exe](https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.20/RoadMax-Portable-2.3.20.exe)** из раздела Assets релиза.
 2. Если RoadMax уже открыт, завершите его и запустите новый EXE. Установка не нужна.
 3. Доски и вложения сохраняются в `%APPDATA%\Flowboard\boards`. Portable запускается без установки, но данные не лежат рядом с EXE.
 4. Перед обновлением существующих данных создайте резервную копию через меню «Файл». Для переноса доски копируйте всю экспортированную папку: файл .roadmax и расположенные рядом вложения.
 
-Файл не имеет цифровой подписи издателя. Автоматическое обновление пока отсутствует. Сверить скачивание можно по **[SHA256SUMS.txt](https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.19/SHA256SUMS.txt)**; подробное управление — в **[краткой инструкции](docs/QUICK-START-RU.md)**.
+Файл не имеет цифровой подписи издателя. Автоматическое обновление пока отсутствует. Сверить скачивание можно по **[SHA256SUMS.txt](https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.20/SHA256SUMS.txt)**; подробное управление — в **[краткой инструкции](docs/QUICK-START-RU.md)**.
 
 ## Форматы и ограничения
 

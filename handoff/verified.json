@@ -1,0 +1,10 @@
+{
+  "target": "5f50dcb64c883bc49dc1dee7590d5ca94156632c",
+  "archives": {
+    "RoadMax-Portable-2.3.24.exe": "9512b7f520c433ec7c0740cb8c740949d971d926e4dc24f7eee5f1afed00e888",
+    "RoadMax-2.3.24-macOS-arm64.dmg": "8b17b6c77344cf5b4a04a49be8113a57d617d34c3310be8a3fc7a44d1c88067b",
+    "RoadMax-2.3.24-macOS-x64.dmg": "0e4db567338b35ec8cfbe4063a1f833de9a917a7f94b4dce8a701b11e545a06e"
+  },
+  "title": "RoadMax 2.3.24 — English and Russian / Английский и русский",
+  "body": "## English\n\nRoadMax now offers an English interface for the project library, whiteboard, document editors and desktop menus. Choose **Language → English**, **Русский** or **Use system language**. Confirm the restart to apply your choice. Existing boards keep their original text and attachments.\n\n- **Windows 10/11 x64** — run the portable `.exe`.\n- **macOS 13 or later** — choose the `arm64.dmg` for Apple Silicon or the `x64.dmg` for Intel. Open the disk image and drag RoadMax to Applications.\n\nThe Windows executable is unsigned. The Mac apps are distributed without Apple notarization. The attached `SHA256SUMS.txt` lists checksums for all three downloads.\n\n[English screenshots and sample board](https://github.com/FORQO/RoadMax-Public/blob/v2.3.24/README.en.md) · [Official website](https://roadmax.dskforge.com/)\n\n## Русский\n\nБиблиотека проектов, доска, встроенные редакторы и меню приложения теперь доступны на русском и английском. Язык меняется через меню **Язык**. Подтвердите перезапуск, чтобы применить выбор. Текст заметок и вложения в ваших досках сохраняются.\n\n- **Windows 10/11 x64** — откройте переносимый файл `.exe`.\n- **macOS 13 и новее** — выберите `arm64.dmg` для Apple Silicon или `x64.dmg` для Intel. Откройте образ и перетащите RoadMax в «Программы».\n\nФайл для Windows распространяется без цифровой подписи. Сборки macOS распространяются без нотариального заверения Apple. Контрольные суммы всех трёх файлов приведены в `SHA256SUMS.txt`.\n\n[Снимки экрана и пример доски](https://github.com/FORQO/RoadMax-Public/blob/v2.3.24/README.md) · [Официальный сайт](https://roadmax.dskforge.com/)"
+}

@@ -18,8 +18,8 @@ On a Mac, **About This Mac** shows whether you have an Apple chip or an Intel pr
 
 ## Try a board
 
-1. [Download “One Street, Three Photographs”](https://github.com/FORQO/RoadMax-Public/raw/refs/heads/main/examples/one-street-en.roadmax). This single file contains four editable sticky notes for planning a small exhibition.
-2. In RoadMax, choose **Файл → Открыть проект RoadMax…** (File → Open RoadMax project) and select the downloaded file.
+1. [Download “One Street, Three Photographs” (ZIP)](https://github.com/FORQO/RoadMax-Public/raw/refs/heads/main/examples/one-street-en.zip) and extract the archive. It contains one board with four editable sticky notes for planning a small exhibition.
+2. In RoadMax, choose **Файл → Открыть проект RoadMax…** (File → Open RoadMax project) and select `one-street-en.roadmax` from the archive.
 3. Add a photo or PDF next to **Source material**. Write down a detail you noticed and draw an arrow from the note to its source.
 
 ## Working with your own files

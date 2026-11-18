@@ -1,4 +1,4 @@
-# RoadMax 2.3.23 — быстрый старт
+# RoadMax 2.3.24 — быстрый старт
 
 Windows 10/11 x64 · macOS 13 или новее, Apple Silicon и Intel · 18 ноября 2026
 
@@ -6,10 +6,14 @@ Windows 10/11 x64 · macOS 13 или новее, Apple Silicon и Intel · 18 н
 
 При обновлении сначала сохраните работу, выберите «Файл» → «Создать резервную копию…» и завершите RoadMax.
 
-- **Windows.** Скачайте и запустите [RoadMax Portable для Windows x64](https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.23/RoadMax-Portable-2.3.23.exe).
-- **Mac.** Откройте меню Apple → «Об этом Mac». Для чипа Apple серии M скачайте [DMG для Apple Silicon](https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.23/RoadMax-2.3.23-macOS-arm64.dmg), для процессора Intel — [DMG для Intel](https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.23/RoadMax-2.3.23-macOS-x64.dmg). Откройте образ, перенесите RoadMax в «Программы» и запустите приложение оттуда.
+- **Windows.** Скачайте и запустите [RoadMax Portable для Windows x64](https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.24/RoadMax-Portable-2.3.24.exe).
+- **Mac.** Откройте меню Apple → «Об этом Mac». Для чипа Apple серии M скачайте [DMG для Apple Silicon](https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.24/RoadMax-2.3.24-macOS-arm64.dmg), для процессора Intel — [DMG для Intel](https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.24/RoadMax-2.3.24-macOS-x64.dmg). Откройте образ, перенесите RoadMax в «Программы» и запустите приложение оттуда.
 
 Папка досок и вложений в Windows — `%APPDATA%\Flowboard\boards`, на Mac — `~/Library/Application Support/Flowboard/boards`. Её можно открыть в самом RoadMax через «Файл» → «Открыть папку данных». Для переноса одной доски выберите «Файл» → «Сохранить проект в папку…». Скопируйте всю папку с файлом `.roadmax` и вложениями, затем на другом компьютере выберите «Файл» → «Открыть проект RoadMax…».
+
+## Язык интерфейса
+
+При первом запуске RoadMax выбирает русский или английский по списку языков системы. Если в списке нет ни одного из них, открывается английский интерфейс. Чтобы сменить язык, откройте меню «Язык» (Language), выберите «Русский» или English и подтвердите перезапуск. Для возврата к настройкам системы выберите «Как в системе».
 
 ## Доска и навигация
 

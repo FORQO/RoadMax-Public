@@ -1,26 +1,26 @@
 {
-  "version": "2.3.23",
-  "portableSha256": "50bbc62c8ace844eb1ca94d54acabde867046b17141c08249fcd66e71d035b73",
+  "version": "2.3.24",
+  "portableSha256": "90bc6cce76200b87603d879f734f1ed453dc8f04c6eae8c422f1ff9bcd35f2ac",
   "assets": [
     {
-      "name": "RoadMax-Portable-2.3.23.exe",
-      "bytes": 124180360,
-      "sha256": "50bbc62c8ace844eb1ca94d54acabde867046b17141c08249fcd66e71d035b73"
+      "name": "RoadMax-Portable-2.3.24.exe",
+      "bytes": 126788123,
+      "sha256": "90bc6cce76200b87603d879f734f1ed453dc8f04c6eae8c422f1ff9bcd35f2ac"
     },
     {
-      "name": "RoadMax-2.3.23-macOS-arm64.dmg",
-      "bytes": 159984129,
-      "sha256": "019045015fbe93db1d243fd0a190d8773f5fab883f9bc8cb4436e1b29adbcfd6"
+      "name": "RoadMax-2.3.24-macOS-arm64.dmg",
+      "bytes": 164556758,
+      "sha256": "e05e152a3b22c17416ec229d0e7bb0c16e3fbbbbfc86aa47e6841c3d8ef8e609"
     },
     {
-      "name": "RoadMax-2.3.23-macOS-x64.dmg",
-      "bytes": 167238447,
-      "sha256": "c02149e4064710cd142051cc8435021bf6b8034f42f7c1c3335ea17a76f88489"
+      "name": "RoadMax-2.3.24-macOS-x64.dmg",
+      "bytes": 171570390,
+      "sha256": "a83d47e4d4f1d013c6338ebc7a2c0c7b592f45a5e48e14417e6236dbda37e8bb"
     },
     {
       "name": "SHA256SUMS.txt",
       "bytes": 286,
-      "sha256": "c30ec636083058b6027e6ad1d5e76f9c29ead1effb8ede5b7579d67c5bd631c5"
+      "sha256": "cdbec87a6150cd480da355bb7d7eaca821aa8471df75c9b2356af7e40980ac88"
     }
   ]
 }

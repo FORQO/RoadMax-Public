@@ -1,0 +1,28 @@
+name: Publish verified RoadMax 2.4.0 installers
+on:
+  push:
+    branches: [operations/promote-roadmax-2.4.0]
+    paths: ['.github/workflows/promote-roadmax-2.4.0.yml']
+permissions:
+  contents: write
+jobs:
+  release:
+    timeout-minutes: 26
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Publish the one-time recipient certificate
+        run: |
+          set -euo pipefail
+          umask 077
+          cert="handoff/receiver-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}.pem"
+          openssl req -x509 -newkey rsa:3072 -nodes -days 1 -subj /CN=RoadMax-installer-distribution -keyout "$RUNNER_TEMP/recipient.key" -out "$cert" 2>/dev/null
+          git config user.name github-actions
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add "$cert"
+          git commit -qm 'One-time recipient for this release run'
+          git push
+      - name: Verify the downloaded installers and publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 handoff/promote.py

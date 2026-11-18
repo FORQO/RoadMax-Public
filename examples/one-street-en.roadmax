@@ -1,0 +1,257 @@
+{
+  "format": "roadmax-project",
+  "version": 1,
+  "createdAt": "2026-11-18T10:00:00.000Z",
+  "project": {
+    "id": "board-1c14abdb-ef76-5f3a-9420-b12147938727",
+    "title": "One Street, Three Photographs",
+    "createdAt": 1794996000000,
+    "updatedAt": 1794996000000,
+    "projectId": null,
+    "folderId": null,
+    "snapshot": {
+      "areas": [],
+      "templateTexts": {},
+      "itemPositions": {
+        "heading": {
+          "x": 135,
+          "y": 45
+        },
+        "problem": {
+          "x": 135,
+          "y": 170
+        },
+        "audience": {
+          "x": 455,
+          "y": 170
+        },
+        "solution": {
+          "x": 790,
+          "y": 170
+        },
+        "yellowNote": {
+          "x": 170,
+          "y": 435
+        },
+        "pinkNote": {
+          "x": 430,
+          "y": 435
+        },
+        "greenNote": {
+          "x": 690,
+          "y": 435
+        },
+        "roadmap": {
+          "x": 935,
+          "y": 455
+        },
+        "quickAdd": {
+          "x": 420,
+          "y": 300
+        }
+      },
+      "hiddenItems": [
+        "heading",
+        "problem",
+        "audience",
+        "solution",
+        "yellowNote",
+        "pinkNote",
+        "greenNote",
+        "roadmap"
+      ],
+      "stickerColors": {
+        "yellowNote": "#FFE78C",
+        "pinkNote": "#FFC1D0",
+        "greenNote": "#BCE9CF"
+      },
+      "stickerSizes": {
+        "yellowNote": {
+          "width": 185,
+          "height": 135
+        },
+        "pinkNote": {
+          "width": 185,
+          "height": 135
+        },
+        "greenNote": {
+          "width": 185,
+          "height": 135
+        }
+      },
+      "stickerFormats": {
+        "yellowNote": {
+          "fontSize": 14,
+          "fontFamily": "sans",
+          "align": "left",
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "locked": false
+        },
+        "pinkNote": {
+          "fontSize": 14,
+          "fontFamily": "sans",
+          "align": "left",
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "locked": false
+        },
+        "greenNote": {
+          "fontSize": 14,
+          "fontFamily": "sans",
+          "align": "left",
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "locked": false
+        }
+      },
+      "cardColors": {
+        "problem": "#FFFFFF",
+        "audience": "#FFFFFF",
+        "solution": "#FFFFFF"
+      },
+      "cardAccentColors": {
+        "problem": "#FF775F",
+        "audience": "#D9823F",
+        "solution": "#4388F4"
+      },
+      "cardFormats": {
+        "problem": {
+          "fontSize": 14,
+          "fontFamily": "sans",
+          "align": "left",
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "locked": false
+        },
+        "audience": {
+          "fontSize": 14,
+          "fontFamily": "sans",
+          "align": "left",
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "locked": false
+        },
+        "solution": {
+          "fontSize": 14,
+          "fontFamily": "sans",
+          "align": "left",
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "locked": false
+        }
+      },
+      "editableTextFormats": {
+        "heading": {
+          "fontSize": 14,
+          "fontFamily": "sans",
+          "align": "left",
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "locked": false
+        },
+        "roadmap": {
+          "fontSize": 14,
+          "fontFamily": "sans",
+          "align": "left",
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "locked": false
+        }
+      },
+      "arrows": [],
+      "itemGroups": {},
+      "arrowGroups": {},
+      "quickIdeaGroups": {},
+      "quickIdeas": [
+        {
+          "id": "street-en-1",
+          "kind": "sticker",
+          "text": "The idea\nHow has one street changed? Plan a small exhibition around three photographs from different years.",
+          "color": "#FFE78C",
+          "x": 90,
+          "y": 70,
+          "width": 282,
+          "height": 182,
+          "format": {
+            "fontSize": 18,
+            "fontFamily": "sans",
+            "align": "left",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "locked": false
+          }
+        },
+        {
+          "id": "street-en-2",
+          "kind": "sticker",
+          "text": "Source material\nAdd your own photo or PDF beside this note. Record its place, date and source.",
+          "color": "#BCE9CF",
+          "x": 405,
+          "y": 70,
+          "width": 282,
+          "height": 182,
+          "format": {
+            "fontSize": 18,
+            "fontFamily": "sans",
+            "align": "left",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "locked": false
+          }
+        },
+        {
+          "id": "street-en-3",
+          "kind": "sticker",
+          "text": "A question\nWhich details disappeared? Write down one observation and draw an arrow to the photo.",
+          "color": "#FFC1D0",
+          "x": 90,
+          "y": 285,
+          "width": 282,
+          "height": 182,
+          "format": {
+            "fontSize": 18,
+            "fontFamily": "sans",
+            "align": "left",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "locked": false
+          }
+        },
+        {
+          "id": "street-en-4",
+          "kind": "sticker",
+          "text": "Next step\nPick an opening photograph. Add a sticky note with the caption a visitor will see.",
+          "color": "#B9D8FF",
+          "x": 405,
+          "y": 285,
+          "width": 282,
+          "height": 182,
+          "format": {
+            "fontSize": 18,
+            "fontFamily": "sans",
+            "align": "left",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "locked": false
+          }
+        }
+      ],
+      "objectLayers": {},
+      "drawings": []
+    }
+  },
+  "assets": []
+}

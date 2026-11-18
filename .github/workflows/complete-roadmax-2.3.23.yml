@@ -1,0 +1,27 @@
+name: Complete verified RoadMax 2.3.23 release
+on:
+  push:
+    branches: [distribution/roadmax-2.3.23]
+    paths: ['.github/workflows/complete-roadmax-2.3.23.yml']
+permissions:
+  contents: write
+jobs:
+  complete:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - name: Make a one-time recipient for the Intel build
+        run: |
+          set -euo pipefail
+          umask 077
+          openssl req -x509 -newkey rsa:3072 -nodes -days 1 -subj /CN=RoadMax-release-transfer -keyout "$RUNNER_TEMP/recipient.key" -out handoff/receiver-2.3.23.pem 2>/dev/null
+          git config user.name github-actions
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add handoff/receiver-2.3.23.pem
+          git commit -qm "One-time recipient for verified Intel build"
+          git push
+      - name: Verify four distribution files and publish the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 handoff/complete_intel.py

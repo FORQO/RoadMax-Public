@@ -2,7 +2,11 @@
 
 <p align="center"><b>Идеи, планы и документы — в одном пространстве.</b><br>Локальное приложение для Windows и macOS от <a href="https://github.com/FORQO">FORQO</a>.</p>
 
-<p align="center"><b>Скачать RoadMax 2.3.21</b><br><a href="https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.21/RoadMax-Portable-2.3.21.exe">Windows x64 Portable</a> · <a href="https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.21/RoadMax-2.3.21-macOS-arm64.dmg">Mac с Apple Silicon</a> · <a href="https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.21/RoadMax-2.3.21-macOS-x64.dmg">Mac с Intel</a><br><a href="https://roadmax.dskforge.com/">Официальный сайт</a> · <a href="https://github.com/FORQO/RoadMax-Public/releases/tag/v2.3.21">Релиз и контрольные суммы</a> · <a href="docs/QUICK-START-RU.md">Как начать</a></p>
+<p align="center"><b>Скачать RoadMax 2.3.22</b><br><a href="https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.22/RoadMax-Portable-2.3.22.exe">Windows x64 Portable</a> · <a href="https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.22/RoadMax-2.3.22-macOS-arm64.dmg">Mac с Apple Silicon</a> · <a href="https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.22/RoadMax-2.3.22-macOS-x64.dmg">Mac с Intel</a><br><a href="https://roadmax.dskforge.com/">Официальный сайт</a> · <a href="https://github.com/FORQO/RoadMax-Public/releases/tag/v2.3.22">Релиз и контрольные суммы</a> · <a href="docs/QUICK-START-RU.md">Как начать</a></p>
+
+## Новое в RoadMax 2.3.22
+
+При перемещении и масштабировании доска повторно использует контуры рисунков и пересчитывает видимые объекты при переходе в другую область. Проверены Windows x64, macOS на Apple Silicon и macOS на Intel. [Результаты проверки и установщики](https://github.com/FORQO/RoadMax-Public/releases/tag/v2.3.22).
 
 ## Новое в RoadMax 2.3.21
 
@@ -28,7 +32,7 @@
 
 Здесь можно подготовить исследование, собрать материалы, спланировать запуск или организовать личные проекты. Проекты и папки в Dashboard помогают переходить от общей картины к конкретной доске, а встроенные редакторы — работать с её содержимым.
 
-Текущий публичный выпуск — **2.3.21 от 14 ноября 2026 года**. В этом репозитории размещены сборки для Windows и macOS, документация и материалы для пользователей. Исходный код приложения хранится в закрытом репозитории.
+Текущий публичный выпуск — **2.3.22 от 18 ноября 2026 года**. В этом репозитории размещены сборки для Windows и macOS, документация и материалы для пользователей. Исходный код приложения хранится в закрытом репозитории.
 
 ## Возможности
 
@@ -73,12 +77,12 @@
 
 **Windows.**
 
-1. Скачайте **[RoadMax-Portable-2.3.21.exe](https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.21/RoadMax-Portable-2.3.21.exe)** из раздела Assets релиза.
+1. Скачайте **[RoadMax-Portable-2.3.22.exe](https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.22/RoadMax-Portable-2.3.22.exe)** из раздела Assets релиза.
 2. Если RoadMax уже открыт, завершите его и запустите новый EXE. Установка не нужна.
 3. Доски и вложения сохраняются в `%APPDATA%\Flowboard\boards`. Portable запускается без установки, но данные не лежат рядом с EXE.
 4. Перед обновлением существующих данных создайте резервную копию через меню «Файл». Для переноса доски копируйте всю экспортированную папку: файл .roadmax и расположенные рядом вложения.
 
-Файл не имеет цифровой подписи издателя. Автоматическое обновление пока отсутствует. Сверить скачивание можно по **[SHA256SUMS.txt](https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.21/SHA256SUMS.txt)**; подробное управление — в **[краткой инструкции](docs/QUICK-START-RU.md)**.
+Файл не имеет цифровой подписи издателя. Автоматическое обновление пока отсутствует. Сверить скачивание можно по **[SHA256SUMS.txt](https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.22/SHA256SUMS.txt)**; подробное управление — в **[краткой инструкции](docs/QUICK-START-RU.md)**.
 
 ## Форматы и ограничения
 

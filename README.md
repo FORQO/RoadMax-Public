@@ -4,11 +4,11 @@
 
 **RoadMax — локальная доска для заметок, схем и документов на Windows и Mac.** Например, при подготовке выставки можно разложить фотографии по годам, отметить детали в PDF и соединить каждую находку с подписью для стенда. Доска и вложения хранятся на вашем компьютере.
 
-<p align="center"><b>Скачать RoadMax 2.3.24</b><br><a href="https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.24/RoadMax-Portable-2.3.24.exe">Windows x64 Portable</a> · <a href="https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.24/RoadMax-2.3.24-macOS-arm64.dmg">Mac с Apple Silicon</a> · <a href="https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.24/RoadMax-2.3.24-macOS-x64.dmg">Mac с Intel</a><br><a href="https://roadmax.dskforge.com/">Официальный сайт</a> · <a href="https://github.com/FORQO/RoadMax-Public/releases/tag/v2.3.24">Релиз и контрольные суммы</a> · <a href="docs/QUICK-START-RU.md">Как начать</a></p>
+<p align="center"><b>Скачать RoadMax 2.4.0</b><br><a href="https://github.com/FORQO/RoadMax-Public/releases/download/v2.4.0/RoadMax-Portable-2.4.0.exe">Windows x64 Portable</a> · <a href="https://github.com/FORQO/RoadMax-Public/releases/download/v2.4.0/RoadMax-2.4.0-macOS-arm64.dmg">Mac с Apple Silicon</a> · <a href="https://github.com/FORQO/RoadMax-Public/releases/download/v2.4.0/RoadMax-2.4.0-macOS-x64.dmg">Mac с Intel</a><br><a href="https://roadmax.dskforge.com/">Официальный сайт</a> · <a href="https://github.com/FORQO/RoadMax-Public/releases/tag/v2.4.0">Релиз и контрольные суммы</a> · <a href="docs/QUICK-START-RU.md">Как начать</a></p>
 
-[![Пример проекта в RoadMax: заметки, связи и документы на одной доске](assets/screenshots/2.3.24/en/board-light.webp)](assets/screenshots/2.3.24/en/board-light.webp)
+[![Пример проекта в RoadMax: заметки, связи и документы на одной доске](assets/screenshots/2.4.0/en/board-light.webp)](assets/screenshots/2.4.0/en/board-light.webp)
 
-*На снимке — доска «North Quay field survey» в английском интерфейсе RoadMax 2.3.24.*
+*На снимке — доска «North Quay field survey» в английском интерфейсе RoadMax 2.4.0.*
 
 ## Попробовать на готовой доске
 
@@ -16,9 +16,12 @@
 2. Откройте RoadMax и выберите «Файл» → «Открыть проект RoadMax…». Укажите файл `one-street-ru.roadmax` из архива.
 3. Добавьте собственную фотографию или PDF рядом со стикером «Материалы». На соседнем стикере запишите наблюдение и соедините его стрелкой с материалом.
 
-## Новое в RoadMax 2.3.24
+## Новое в RoadMax 2.4.0
 
-При первом запуске RoadMax выбирает русский или английский по списку языков системы. Если в списке нет ни одного из них, открывается английский интерфейс. Чтобы сменить язык, откройте меню «Язык» (Language), выберите «Русский» или English и подтвердите перезапуск. Для возврата к настройкам системы выберите «Как в системе». [Скачать выпуск](https://github.com/FORQO/RoadMax-Public/releases/tag/v2.3.24).
+- **Цитаты с источником.** Выделите текст на странице PDF и нажмите «Цитата на доску». С карточки можно вернуться к странице. Кнопка «Рядом с доской» оставляет PDF открытым во время работы на холсте.
+- **Поиск внутри документов.** В библиотеке откройте нужный проект и введите фразу в поиск. Результат для PDF указывает страницу, для DOCX — абзац. Для печатных русских и английских сканов PDF включите «Распознавать сканы (OCR)».
+- **Папка проекта на диске.** Команда «Файл» → «Показать папку текущего проекта» открывает обычную папку с `Project.roadmax`, досками и вложениями. Проекты можно переносить целиком.
+- **Просмотр без установки.** Экспортируйте доску или область в автономный HTML. Получатель может менять масштаб, переходить от цитат к карточкам источников и скачивать включённые вами оригиналы.
 
 ## Что такое RoadMax
 
@@ -26,7 +29,7 @@
 
 Здесь можно подготовить исследование, собрать материалы, спланировать запуск или организовать личные проекты. Проекты и папки в Dashboard помогают переходить от общей картины к конкретной доске, а встроенные редакторы — работать с её содержимым.
 
-Текущий публичный выпуск — **2.3.24 от 18 ноября 2026 года**. В этом репозитории размещены сборки для Windows и macOS, документация и материалы для пользователей. Исходный код приложения хранится в закрытом репозитории.
+Текущий публичный выпуск — **2.4.0 от 18 ноября 2026 года**. В этом репозитории размещены сборки для Windows и macOS, документация и материалы для пользователей. Исходный код приложения хранится в закрытом репозитории.
 
 ## Возможности
 
@@ -42,20 +45,22 @@
 | **Готовить документы** | DOCX: абзацы и заголовки, шрифты и начертания, списки, ссылки, таблицы, изображения, поиск и Undo/Redo. Сохранение DOCX и локальный экспорт PDF. |
 | **Хранить и переносить** | Локальное сохранение, резервные копии .flowboard и переносимые проекты .roadmax с вложениями. Оригинал файла и рабочая версия хранятся отдельно. |
 
-## Интерфейс RoadMax 2.3.24
+## Интерфейс RoadMax 2.4.0
 
-На снимках показан английский интерфейс и демонстрационный проект «North Quay field survey» о доступности набережной. Нажмите на снимок, чтобы рассмотреть его в полном размере.
+На снимках показан английский интерфейс и демонстрационный демонстрационные проекты о доступности набережной. Нажмите на снимок, чтобы рассмотреть его в полном размере.
 
 | Экран | Светлая тема | Тёмная тема |
 | :--- | :---: | :---: |
-| **Доска** | [![Доска, светлая тема](assets/screenshots/2.3.24/en/board-light.webp)](assets/screenshots/2.3.24/en/board-light.webp) | [![Доска, тёмная тема](assets/screenshots/2.3.24/en/board-dark.webp)](assets/screenshots/2.3.24/en/board-dark.webp) |
-| **Библиотека проектов** | [![Библиотека проектов, светлая тема](assets/screenshots/2.3.24/en/library-light.webp)](assets/screenshots/2.3.24/en/library-light.webp) | [![Библиотека проектов, тёмная тема](assets/screenshots/2.3.24/en/library-dark.webp)](assets/screenshots/2.3.24/en/library-dark.webp) |
-| **Редактор PDF** | [![Редактор PDF, светлая тема](assets/screenshots/2.3.24/en/pdf-light.webp)](assets/screenshots/2.3.24/en/pdf-light.webp) | [![Редактор PDF, тёмная тема](assets/screenshots/2.3.24/en/pdf-dark.webp)](assets/screenshots/2.3.24/en/pdf-dark.webp) |
-| **Редактор изображений** | [![Редактор изображений, светлая тема](assets/screenshots/2.3.24/en/image-light.webp)](assets/screenshots/2.3.24/en/image-light.webp) | [![Редактор изображений, тёмная тема](assets/screenshots/2.3.24/en/image-dark.webp)](assets/screenshots/2.3.24/en/image-dark.webp) |
-| **Таблица XLSX** | [![Таблица XLSX, светлая тема](assets/screenshots/2.3.24/en/sheet-light.webp)](assets/screenshots/2.3.24/en/sheet-light.webp) | [![Таблица XLSX, тёмная тема](assets/screenshots/2.3.24/en/sheet-dark.webp)](assets/screenshots/2.3.24/en/sheet-dark.webp) |
-| **Документ DOCX** | [![Документ DOCX, светлая тема](assets/screenshots/2.3.24/en/docx-light.webp)](assets/screenshots/2.3.24/en/docx-light.webp) | [![Документ DOCX, тёмная тема](assets/screenshots/2.3.24/en/docx-dark.webp)](assets/screenshots/2.3.24/en/docx-dark.webp) |
+| **Доска** | [![Доска, светлая тема](assets/screenshots/2.4.0/en/board-light.webp)](assets/screenshots/2.4.0/en/board-light.webp) | [![Доска, тёмная тема](assets/screenshots/2.4.0/en/board-dark.webp)](assets/screenshots/2.4.0/en/board-dark.webp) |
+| **Библиотека проектов** | [![Библиотека проектов, светлая тема](assets/screenshots/2.4.0/en/library-light.webp)](assets/screenshots/2.4.0/en/library-light.webp) | [![Библиотека проектов, тёмная тема](assets/screenshots/2.4.0/en/library-dark.webp)](assets/screenshots/2.4.0/en/library-dark.webp) |
+| **Редактор PDF** | [![Редактор PDF, светлая тема](assets/screenshots/2.4.0/en/pdf-light.webp)](assets/screenshots/2.4.0/en/pdf-light.webp) | [![Редактор PDF, тёмная тема](assets/screenshots/2.4.0/en/pdf-dark.webp)](assets/screenshots/2.4.0/en/pdf-dark.webp) |
+| **Редактор изображений** | [![Редактор изображений, светлая тема](assets/screenshots/2.4.0/en/image-light.webp)](assets/screenshots/2.4.0/en/image-light.webp) | [![Редактор изображений, тёмная тема](assets/screenshots/2.4.0/en/image-dark.webp)](assets/screenshots/2.4.0/en/image-dark.webp) |
+| **Таблица XLSX** | [![Таблица XLSX, светлая тема](assets/screenshots/2.4.0/en/sheet-light.webp)](assets/screenshots/2.4.0/en/sheet-light.webp) | [![Таблица XLSX, тёмная тема](assets/screenshots/2.4.0/en/sheet-dark.webp)](assets/screenshots/2.4.0/en/sheet-dark.webp) |
+| **Документ DOCX** | [![Документ DOCX, светлая тема](assets/screenshots/2.4.0/en/docx-light.webp)](assets/screenshots/2.4.0/en/docx-light.webp) | [![Документ DOCX, тёмная тема](assets/screenshots/2.4.0/en/docx-dark.webp)](assets/screenshots/2.4.0/en/docx-dark.webp) |
+| **Цитата и источник PDF** | [![Цитата и источник PDF, светлая тема](assets/screenshots/2.4.0/en/quote-light.webp)](assets/screenshots/2.4.0/en/quote-light.webp) | [![Цитата и источник PDF, тёмная тема](assets/screenshots/2.4.0/en/quote-dark.webp)](assets/screenshots/2.4.0/en/quote-dark.webp) |
+| **Папка проекта** | [![Папка проекта, светлая тема](assets/screenshots/2.4.0/en/folders-light.webp)](assets/screenshots/2.4.0/en/folders-light.webp) | [![Папка проекта, тёмная тема](assets/screenshots/2.4.0/en/folders-dark.webp)](assets/screenshots/2.4.0/en/folders-dark.webp) |
 
-[Сравнить сетку на фрагментах той же доски. Слева линии, справа точки. Сверху светлая тема, снизу тёмная.](assets/screenshots/2.3.24/en/grid.webp)
+[Сравнить сетку на фрагментах той же доски. Слева линии, справа точки. Сверху светлая тема, снизу тёмная.](assets/screenshots/2.4.0/en/grid.webp)
 
 <details>
 <summary>Работа с файлами на доске</summary>
@@ -73,13 +78,19 @@
 
 | Система | Как запустить |
 | --- | --- |
-| Windows 10 или 11, x64 | Скачайте и запустите [RoadMax Portable](https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.24/RoadMax-Portable-2.3.24.exe). Установка не требуется. |
-| macOS 13 или новее, Apple Silicon | Скачайте [DMG для чипа Apple](https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.24/RoadMax-2.3.24-macOS-arm64.dmg). Откройте образ и перетащите RoadMax в «Программы». |
-| macOS 13 или новее, Intel | Скачайте [DMG для Intel](https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.24/RoadMax-2.3.24-macOS-x64.dmg). Откройте образ и перетащите RoadMax в «Программы». |
+| Windows 10 или 11, x64 | Скачайте и запустите [RoadMax Portable](https://github.com/FORQO/RoadMax-Public/releases/download/v2.4.0/RoadMax-Portable-2.4.0.exe). Установка не требуется. |
+| macOS 13 или новее, Apple Silicon | Скачайте [DMG для чипа Apple](https://github.com/FORQO/RoadMax-Public/releases/download/v2.4.0/RoadMax-2.4.0-macOS-arm64.dmg). Откройте образ и перетащите RoadMax в «Программы». |
+| macOS 13 или новее, Intel | Скачайте [DMG для Intel](https://github.com/FORQO/RoadMax-Public/releases/download/v2.4.0/RoadMax-2.4.0-macOS-x64.dmg). Откройте образ и перетащите RoadMax в «Программы». |
 
-Модель процессора Mac указана в меню Apple → «Об этом Mac». Windows EXE распространяется без подписи издателя, приложение для Mac — без нотарификации Apple. Для обновления скачайте новый выпуск вручную. [Контрольные суммы SHA-256](https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.24/SHA256SUMS.txt).
+Модель процессора Mac указана в меню Apple → «Об этом Mac». Windows EXE распространяется без подписи издателя, приложение для Mac — без нотарификации Apple. Для обновления скачайте новый выпуск вручную. [Контрольные суммы SHA-256](https://github.com/FORQO/RoadMax-Public/releases/download/v2.4.0/SHA256SUMS.txt).
 
-Доски и вложения хранятся в профиле пользователя. Папку можно открыть из меню «Файл» → «Открыть папку данных». Для переноса одной доски выберите «Файл» → «Сохранить проект в папку…» и скопируйте всю полученную папку с файлом `.roadmax` и вложениями. [Инструкция по работе с доской](docs/QUICK-START-RU.md).
+Для переноса проекта целиком откройте «Файл» → «Показать папку текущего проекта», завершите RoadMax и скопируйте всю папку с файлом `Project.roadmax`. Для переноса одной доски выберите «Файл» → «Сохранить проект в папку…» и скопируйте всю полученную папку с файлом `.roadmax` и вложениями. [Инструкция по работе с доской](docs/QUICK-START-RU.md).
+
+## От цитаты к источнику
+
+[Откройте интерактивную доску в браузере](https://roadmax.dskforge.com/#interactive-board) или [скачайте проект с PDF](https://github.com/FORQO/RoadMax-Public/raw/c14cd882f7a3f6a7f166b4e3315a1a7a7ea2bd24/examples/north-quay-quote-2.4.0.zip). Распакуйте ZIP целиком и откройте `North Quay field notes.roadmax` в RoadMax 2.4.0. Цитата об указателе ведёт на страницу 2 полевого отчёта.
+
+Чтобы отправить свою доску для просмотра, выберите «Файл» → «Экспорт интерактивного HTML…». Укажите всю доску, выделенные объекты или именованную область. Оригиналы вложений включаются по отдельным флажкам. Полученный HTML открывается в браузере без сети и позволяет перемещать доску и менять масштаб.
 
 ## Форматы и ограничения
 
@@ -96,12 +107,16 @@
 
 Сложные Office-файлы могут отображаться не полностью. Диаграммы, отслеживаемые правки, формы и другие неподдержанные элементы не должны исчезать при случайном пересохранении: для таких файлов включается режим просмотра/оригинала. Активный код и макросы не исполняются. Полного совпадения со всеми версиями Word и всеми авторскими шрифтами не обещается.
 
-В XLSX активный фильтр экспортируется диапазоном и текущими скрытыми строками, без критериев; требуется явное подтверждение. Для сканированного PDF без текстового слоя поиск по словам недоступен — OCR в выпуск не входит.
+В XLSX активный фильтр экспортируется диапазоном и текущими скрытыми строками, без критериев; требуется явное подтверждение. Поиск проекта может распознать печатный русский и английский текст на сканированных страницах PDF. Доступность текстовых пометок в PDF зависит от его текстового слоя.
 
 Доски хранятся локально. Для работы на другом компьютере перенесите экспортированный проект или резервную копию. Облачная синхронизация и совместное редактирование в этой версии отсутствуют. [Архив проверок версии 1.5.0](docs/VERIFICATION-1.5.0.md).
 
 <details>
-<summary>Что изменилось в версиях 2.3.19–2.3.23</summary>
+<summary>Что изменилось в версиях 2.3.19–2.3.24</summary>
+
+## Новое в RoadMax 2.3.24
+
+При первом запуске RoadMax выбирает русский или английский по списку языков системы. Если в списке нет ни одного из них, открывается английский интерфейс. Чтобы сменить язык, откройте меню «Язык» (Language), выберите «Русский» или English и подтвердите перезапуск. Для возврата к настройкам системы выберите «Как в системе». [Скачать выпуск](https://github.com/FORQO/RoadMax-Public/releases/tag/v2.3.24).
 
 ## Новое в RoadMax 2.3.23
 

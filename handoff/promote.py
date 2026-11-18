@@ -1,4 +1,5 @@
 import base64
+from concurrent.futures import ThreadPoolExecutor
 import hashlib
 import json
 import os
@@ -110,8 +111,11 @@ def main():
     check(document["version"] == TAG[1:] and set(manifest) == BINARIES | {"SHA256SUMS.txt"} and
           set(config["archives"]) == BINARIES, "Unexpected release manifest")
     links = receive_links()
-    for name in sorted(BINARIES):
-        retrieve(name, links[name], config["archives"][name], manifest[name])
+    with ThreadPoolExecutor(max_workers=len(BINARIES)) as pool:
+        transfers = [pool.submit(retrieve, name, links[name], config["archives"][name], manifest[name])
+                     for name in sorted(BINARIES)]
+        for transfer in transfers:
+            transfer.result()
     sums = TEMP / "SHA256SUMS.txt"
     sums.write_bytes("".join(f"{manifest[n]['sha256']}  {n}\n" for n in sorted(BINARIES)).encode("ascii"))
     check(sha256(sums) == manifest[sums.name]["sha256"] and sums.stat().st_size == manifest[sums.name]["bytes"],

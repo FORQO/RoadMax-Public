@@ -1,0 +1,61 @@
+name: Promote verified RoadMax 2.3.22
+on:
+  push:
+    branches: [distribution/roadmax-2.3.22]
+    paths: ['.github/workflows/promote-roadmax-2.3.22.yml']
+permissions:
+  contents: write
+jobs:
+  promote:
+    runs-on: ubuntu-latest
+    timeout-minutes: 22
+    steps:
+      - uses: actions/checkout@v4
+      - name: Open a one-time receiving channel for release download links
+        run: |
+          set -eu
+          umask 077
+          openssl req -x509 -newkey rsa:3072 -nodes -days 1 -subj /CN=RoadMax-release-transfer -keyout "$RUNNER_TEMP/recipient.key" -out recipient.pem 2>/dev/null
+          git config user.name github-actions
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add recipient.pem
+          git commit -qm 'One-time public recipient for the verified installers'
+          git push
+      - name: Receive and verify distribution files
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          for i in {1..180}; do
+            if gh api -H 'Accept: application/vnd.github.raw+json' "repos/$GITHUB_REPOSITORY/contents/release-links.cms?ref=distribution/roadmax-2.3.22" > "$RUNNER_TEMP/envelope" 2>/dev/null; then break; fi
+            sleep 5
+          done
+          openssl cms -decrypt -binary -inform PEM -in "$RUNNER_TEMP/envelope" -recip recipient.pem -inkey "$RUNNER_TEMP/recipient.key" -out "$RUNNER_TEMP/links.json"
+          rm "$RUNNER_TEMP/recipient.key"
+          mkdir -p release
+          python3 - <<'PY'
+          import hashlib,json,os,shutil,urllib.request
+          from pathlib import Path
+          from urllib.parse import urlsplit
+          expected={"RoadMax-2.3.22-macOS-arm64.dmg":"b2775b08211e2a5f1d07d4f286ce560b6a1368ea6b51e2fbeec495b785e93985","RoadMax-2.3.22-macOS-x64.dmg":"f5219c0e7d0179d9d9e29bea65fd3bf1ced521b734f44f94da1c06f45aea24e6","RoadMax-Portable-2.3.22.exe":"f5a58e750cc47966d31c23bfbf9a7e683bb33d2feaa7c9833ad373ae0345ca26","SHA256SUMS.txt":"3890c313bcb1c0dd36d3135df7184dcb0f06bde418cd9af5709e6393f8936629"}
+          links=json.loads((Path(os.environ['RUNNER_TEMP'])/'links.json').read_text())
+          assert set(expected)==set(links)
+          for name,digest in expected.items():
+              url=links[name]
+              assert urlsplit(url).scheme=='https' and urlsplit(url).hostname=='release-assets.githubusercontent.com'
+              path=Path('release')/name
+              with urllib.request.urlopen(url,timeout=120) as src, path.open('wb') as dest:
+                  shutil.copyfileobj(src,dest)
+              with path.open('rb') as f:
+                  assert hashlib.file_digest(f,'sha256').hexdigest()==digest,name
+              print('Verified',name,flush=True)
+          PY
+          rm "$RUNNER_TEMP/links.json"
+      - name: Create a draft for review in the public repository
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -eu
+          cd release
+          sha256sum -c SHA256SUMS.txt
+          gh release create v2.3.22 --repo "$GITHUB_REPOSITORY" --target "cbaf41875c651e2f931d9814c52729323088a957" --draft --title 'RoadMax 2.3.22 — перемещение и масштабирование доски' --notes 'Ускорено перемещение и масштабирование досок с рисунками и большим числом объектов. Сборки для Windows x64, Mac с Apple Silicon и Mac с Intel проверены на небольшом проекте и на доске со 180 стикерами и 24 штрихами. Перед обновлением сохраните работу и закройте предыдущую версию.' *.exe *.dmg SHA256SUMS.txt

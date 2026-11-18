@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>RoadMax 2.3.22 — визуальные доски для Windows и macOS</title>
+  <meta name="description" content="Идеи, планы, PDF, изображения, таблицы и документы на одной доске. RoadMax — локальное приложение для Windows и macOS от FORQO. Стрелки огибают объекты прямо во время перетаскивания. Скачать для Windows x64, Mac с Apple Silicon или Mac с Intel.">
+  <meta name="theme-color" content="#f1f2f4"><meta property="og:title" content="RoadMax 2.3.22 — весь проект в одном пространстве"><meta property="og:description" content="RoadMax 2.3.22 для Windows и macOS. Визуальные доски, живые связи и документы на вашем компьютере."><meta property="og:type" content="website">
+  <link rel="canonical" href="https://roadmax.dskforge.com/">
+  <meta property="og:url" content="https://roadmax.dskforge.com/">
+  <meta property="og:site_name" content="RoadMax">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:image" content="https://roadmax.dskforge.com/assets/2.3.19/board-light.webp">
+  <link rel="icon" href="assets/roadmax-logo.png"><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="enhancements.css">
+<link rel="stylesheet" href="release-2.3.19.css">
+<link rel="stylesheet" href="board-background-2.3.19.css">
+<style>
+.hero-actions.platforms{display:grid;grid-template-columns:auto auto;gap:8px;align-items:stretch;max-width:100%}
+.platforms>.primary,.platforms>.platform-note{grid-column:1/-1;text-align:center}
+.platforms>.button{justify-content:center;gap:9px}.button.mac-choice{background:#fff;color:#232625;border:1px solid #bac0c7}
+.button.mac-choice:hover{border-color:#727982;background:#f6f7f8}.platforms>.mac-choice{padding:12px 16px}
+.download-card .platform-list{display:grid;gap:8px}.download-card .platform-list .button{padding:13px 17px}
+.platforms a:focus-visible,.platform-list a:focus-visible{outline:3px solid #1f5e9f;outline-offset:3px}
+@media(max-width:600px){.hero-actions.platforms{width:100%;grid-template-columns:1fr 1fr}.platforms>.mac-choice{padding:12px 5px}}
+</style></head>
+<body>
+<a class="skip" href="#main">Перейти к содержимому</a>
+<header class="header"><div class="nav wrap">
+  <a class="brand" href="#" aria-label="RoadMax — главная"><img src="assets/roadmax-logo.png" width="35" height="35" alt=""><span>Road<span class="orange">Max</span></span><small>BY FORQO</small></a>
+  <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Открыть меню"><span></span><span></span><span></span></button>
+  <nav id="main-nav" aria-label="Основная навигация"><a href="#release">Что нового</a><a href="#possibilities">Возможности</a><a href="#workspace">Интерфейс</a><a href="#start">Как начать</a><a href="#questions">Вопросы</a></nav>
+  <a class="button small dark" href="#download">Скачать <span aria-hidden="true">↗</span></a>
+</div></header>
+<main id="main">
+<section class="hero wrap"><div class="grid-light" aria-hidden="true"></div>
+  <div class="hero-top"><a class="release" href="https://github.com/FORQO/RoadMax-Public/releases/tag/v2.3.22"><span class="status-dot"></span> RoadMax 2.3.22 <span class="release-detail">· 18 ноября 2026</span><span aria-hidden="true">↗</span></a></div>
+  <div class="hero-composition"><h1>Весь проект.<br>В одном <span class="hero-ending"><span class="accent-word">пространстве<svg viewBox="0 0 600 23" aria-hidden="true"><path pathLength="1" d="M3 17 Q275 -6 596 12"/></svg></span><span class="orange">.</span></span></h1><div class="route-art" aria-hidden="true">
+  <svg viewBox="0 0 380 190" fill="none" focusable="false">
+    <defs><marker id="route-arrow" viewBox="0 0 8 8" refX="6" refY="4" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1L6 4L1 7" fill="none" stroke="#bb5929" stroke-width="1.3"/></marker></defs>
+    <g stroke="#bb5929" stroke-width="1.65" stroke-linecap="round" marker-end="url(#route-arrow)">
+      <path class="wire wire-one" pathLength="1" d="M118 55H152Q168 55 168 71V86Q168 101 184 101H205"/>
+      <path class="wire wire-two" pathLength="1" d="M278 118V140Q278 154 292 154H306"/>
+    </g>
+    <g class="route-node node-one"><rect x="19" y="32" width="100" height="45" rx="7" fill="#ffe4a5" stroke="#ccad73"/><circle cx="36" cy="55" r="4" fill="#b48a32"/><text x="51" y="60">Идея</text></g>
+    <g class="route-node node-two"><rect x="210" y="79" width="102" height="43" rx="7" fill="#d5e8fa" stroke="#96b3ce"/><circle cx="227" cy="101" r="4" fill="#648ba9"/><text x="240" y="106">План</text></g>
+    <g class="route-node node-three"><rect x="309" y="134" width="65" height="39" rx="6" fill="#d9ead8" stroke="#9db897"/><path d="m317 153 4 4 7-9" stroke="#648465" stroke-width="2"/><text x="333" y="158" font-size="12">Готово</text></g>
+  </svg>
+</div></div>
+  <div class="hero-bottom"><p>Собирайте идеи, связывайте решения<br class="desktop"> и работайте с документами на одной доске.<br class="desktop"> Всё остаётся на вашем компьютере.</p><div class="hero-actions platforms"><a class="button primary" href="https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.22/RoadMax-Portable-2.3.22.exe"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/></svg>Скачать для Windows</a><a class="button mac-choice" href="https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.22/RoadMax-2.3.22-macOS-arm64.dmg" aria-label="Скачать для Mac с Apple Silicon">Mac · Apple Silicon</a>
+<a class="button mac-choice" href="https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.22/RoadMax-2.3.22-macOS-x64.dmg" aria-label="Скачать для Mac с Intel">Mac · Intel</a><span class="platform-note">Windows x64 · macOS 13 и новее</span></div></div>
+  <figure class="hero-screen"><div class="screen-caption"><span><i></i> RoadMax / Запуск продукта</span><span>ДОСКА · СВЕТЛАЯ ТЕМА</span></div><button class="image-open" data-image="board-light.webp" data-caption="Свободная доска RoadMax 2.3.19" aria-label="Увеличить снимок доски"><img src="assets/2.3.19/board-light.webp" alt="Реальная доска RoadMax: исследование, план, запуск и вложенные документы" width="1440" height="900" fetchpriority="high"><span class="zoom-hint">Рассмотреть <b>↗</b></span></button></figure>
+</section>
+<div class="format-strip wrap"><span>Думайте свободно. Работайте с привычными форматами.</span><div><b>PDF</b><b>PNG / JPEG</b><b>XLSX / CSV</b><b>DOCX</b><b>.ROADMAX</b></div></div>
+<section class="release-notes wrap" id="release" aria-labelledby="release-title">
+  <div><span class="release-date"><time datetime="2026-11-18">18 ноября 2026</time></span><h2 id="release-title">Что нового<br>в <em>2.3.22</em></h2><a class="text-link" href="https://github.com/FORQO/RoadMax-Public/releases/tag/v2.3.22">Все изменения <span aria-hidden="true">↗</span></a></div>
+  <ul><li><h3>Плавнее навигация по доскам с рисунками</h3><p>При перемещении и масштабировании RoadMax повторно использует контуры штрихов. Подробные рисунки создают меньше нагрузки во время навигации.</p></li>
+  <li><h3>Меньше работы на каждом кадре</h3><p>Доска обновляет список видимых объектов при переходе в новую область. Сборки для Windows и Mac проверены на навигации мышью и масштабировании.</p></li></ul>
+</section>
+<section id="possibilities" class="section wrap intro">
+  <div class="eyebrow">01 / ОТ ЗАМЫСЛА К РЕЗУЛЬТАТУ</div><div class="section-heading"><h2>Больше контекста.<br>Меньше переключений.</h2><p>Заметки, схема, исходные материалы и рабочие документы — рядом. Вы видите общую картину и можете перейти к деталям.</p></div>
+  <div class="features"><article><span class="feature-icon">↗</span><span class="number">01</span><h3>Идеи обретают форму</h3><p>Начните с шаблона, свяжите стикеры стрелками и настройте свойства объектов в инспекторе. Именованные области можно показать по порядку в режиме презентации.</p><div class="mini-board" aria-hidden="true"><span>Идея</span><i>→</i><span>План</span><i>→</i><span>Запуск</span></div></article><article><span class="feature-icon">▧</span><span class="number">02</span><h3>Материалы под рукой</h3><p>Читайте PDF, редактируйте изображения, таблицы и DOCX прямо из проекта. Сохраняйте контекст работы.</p><div class="file-tags" aria-hidden="true"><span class="pdf">PDF</span><span class="xls">XLSX</span><span class="doc">DOCX</span><span class="img">IMG</span></div></article><article><span class="feature-icon">▦</span><span class="number">03</span><h3>Порядок без усилий</h3><p>Соберите доски в проекты и папки. Ищите по содержимому, назначайте цветные теги и сохраняйте фильтры. Палитра команд открывается по Ctrl+K.</p><div class="mini-folders" aria-hidden="true"><span>⌑ &nbsp; Мои проекты</span><span>└ &nbsp; Запуск продукта <b>3 доски</b></span></div></article></div>
+</section>
+<section id="workspace" class="workspace section">
+ <div class="wrap"><div class="eyebrow">02 / ПОЗНАКОМЬТЕСЬ С ROADMAX</div><div class="section-heading"><h2>Один проект.<br>Много способов работать.</h2><p>Откройте доску, библиотеку или редактор и сравните обе темы RoadMax 2.3.19. На снимках — проект «Запуск продукта».</p></div>
+ <fieldset class="theme-choice"><legend>Тема интерфейса на снимке</legend><label><input type="radio" name="preview-theme" value="light" checked><span>☼ &nbsp;Светлая</span></label><label><input type="radio" name="preview-theme" value="dark"><span>☾ &nbsp;Тёмная</span></label></fieldset>
+ <div class="tabs" role="tablist" aria-label="Возможности RoadMax"><button id="tab-board" role="tab" aria-selected="true" aria-controls="gallery-panel" data-view="board">Доска</button><button id="tab-dashboard" role="tab" aria-selected="false" aria-controls="gallery-panel" data-view="dashboard" tabindex="-1">Проекты</button><button id="tab-pdf" role="tab" aria-selected="false" aria-controls="gallery-panel" data-view="pdf" tabindex="-1">PDF</button><button id="tab-image" role="tab" aria-selected="false" aria-controls="gallery-panel" data-view="image" tabindex="-1">Изображения</button><button id="tab-sheet" role="tab" aria-selected="false" aria-controls="gallery-panel" data-view="sheet" tabindex="-1">Таблицы</button><button id="tab-word" role="tab" aria-selected="false" aria-controls="gallery-panel" data-view="word" tabindex="-1">Документы</button></div>
+ <div id="gallery-panel" role="tabpanel" aria-labelledby="tab-board" tabindex="0"><div class="gallery-copy"><h3 id="gallery-title">Свободная доска</h3><p id="gallery-description">Стикеры и материалы связаны стрелками. Меняйте масштаб вокруг указателя, переключайте сетку и показывайте области доски по очереди.</p></div><button class="gallery-image image-open" data-image="board-light.webp" data-caption="Свободная доска" aria-label="Увеличить снимок интерфейса"><img id="gallery-img" src="assets/2.3.19/board-light.webp" alt="Свободная доска RoadMax" width="1440" height="900" loading="lazy"><span class="zoom-hint">Открыть крупнее <b>↗</b></span></button></div>
+ </div>
+</section>
+<section class="section wrap local"><div class="local-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><span class="orbit-tag tag-one">Ваши идеи</span><span class="orbit-tag tag-two">Ваши файлы</span><span class="orbit-tag tag-three">Ваш компьютер</span><div class="local-logo"><img src="assets/roadmax-logo.png" alt="" width="110" height="110"></div><small>НА ЭТОМ УСТРОЙСТВЕ <span class="status-dot"></span></small></div><div class="local-text"><div class="eyebrow">03 / ЛОКАЛЬНАЯ РАБОТА</div><h2>Ваш проект.<br>На вашем компьютере.</h2><p>Основные действия выполняются локально, без обязательной загрузки файлов в облако. Оригиналы вложений и рабочие версии хранятся отдельно.</p><ul><li>Работа с доской и документами без облачного сервиса</li><li>Резервные копии и перенос проектов с вложениями</li><li>Запуск без установки в Windows</li></ul><a class="text-link" href="https://github.com/FORQO/RoadMax-Public/blob/main/docs/QUICK-START-RU.md">Подробнее о хранении и переносе <span>↗</span></a></div></section>
+<section id="download" class="download-section"><div class="wrap download-inner"><div><div class="eyebrow">ГОТОВЫ СОБРАТЬ СВОЮ ИДЕЮ?</div><h2>Дайте проекту<br>своё пространство<span>↗</span></h2><p>RoadMax 2.3.22 · Windows x64 и macOS 13 или новее</p></div><div class="download-card"><img src="assets/roadmax-logo.png" alt="RoadMax" width="58" height="58"><h3>Начните с первой доски.</h3><div class="platform-list"><a class="button dark" href="https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.22/RoadMax-Portable-2.3.22.exe">Windows · x64 Portable <span aria-hidden="true">↓</span></a>
+<a class="button mac-choice" href="https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.22/RoadMax-2.3.22-macOS-arm64.dmg" aria-label="Скачать для Mac с Apple Silicon">Mac · Apple Silicon <span aria-hidden="true">↓</span></a>
+<a class="button mac-choice" href="https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.22/RoadMax-2.3.22-macOS-x64.dmg" aria-label="Скачать для Mac с Intel">Mac · Intel <span aria-hidden="true">↓</span></a></div><div class="download-links"><a href="https://github.com/FORQO/RoadMax-Public/releases/tag/v2.3.22">О выпуске</a><span>·</span><a href="https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.22/SHA256SUMS.txt">Контрольные суммы</a></div><small>Windows: EXE без подписи издателя. Mac: DMG без нотарификации Apple.<br>Перед обновлением сохраните резервную копию.</small></div></div></section>
+<section id="start" class="section wrap getting-started">
+  <div class="eyebrow">04 / ПЕРВАЯ ДОСКА</div>
+  <div class="section-heading"><h2>Начните с идеи.<br>Остальное — рядом.</h2><p>Выберите сборку для своего компьютера и создайте первый проект.</p></div>
+  <ol class="start-steps">
+    <li><span aria-hidden="true">01</span><h3>Скачайте и запустите</h3><p>В Windows откройте Portable EXE. На Mac откройте DMG и перетащите RoadMax в папку «Программы». Перед обновлением закройте RoadMax.</p></li>
+    <li><span aria-hidden="true">02</span><h3>Создайте доску</h3><p>В библиотеке нажмите «Новая доска» и выберите шаблон или пустую доску. Добавьте стикеры, соедините их стрелками и прикрепите файлы.</p></li>
+    <li><span aria-hidden="true">03</span><h3>Перейдите к деталям</h3><p>Двойной щелчок по изображению, таблице или DOCX открывает редактор. Пробел на выбранном файле — быстрый просмотр.</p></li>
+  </ol>
+  <div class="start-footer"><p>Обновляете RoadMax? Сначала сохраните резервную копию через меню «Файл».</p><a class="text-link" href="https://github.com/FORQO/RoadMax-Public/blob/main/docs/QUICK-START-RU.md">Краткая инструкция <span aria-hidden="true">↗</span></a></div>
+</section>
+<section id="questions" class="section wrap faq"><div><div class="eyebrow">05 / ПОЛЕЗНО ЗНАТЬ</div><h2>Есть вопросы?</h2><p>Больше подробностей — в документации.<br>Или расскажите нам о своей задаче.</p><a class="text-link" href="https://github.com/FORQO/RoadMax-Public/issues/new/choose">Задать вопрос <span>↗</span></a></div><div class="faq-items"><details open><summary>На каких устройствах работает RoadMax?<span>+</span></summary><p>RoadMax 2.3.22 работает в Windows x64 и в macOS 13 или новее. На Mac откройте меню Apple → «Об этом Mac». Если указан чип Apple серии M, скачайте «Mac · Apple Silicon». Если указан процессор Intel, скачайте «Mac · Intel».</p></details><details><summary>Где хранятся мои проекты?<span>+</span></summary><p>В Windows — в <code>%APPDATA%\Flowboard\boards</code>, на Mac — в <code>~/Library/Application Support/Flowboard/boards</code>. Для переноса экспортируйте проект .roadmax вместе с папкой вложений.</p></details><details><summary>Можно ли работать с PDF, таблицами и Word?<span>+</span></summary><p>Да. Можно читать и размечать PDF, редактировать изображения, XLSX, CSV, TSV и DOCX. Книги XLSX с неподдерживаемыми объектами открываются для просмотра. Оригинал вложения доступен отдельно. <a href="https://github.com/FORQO/RoadMax-Public#форматы-и-ограничения">Матрица форматов и ограничений ↗</a></p></details><details><summary>Есть синхронизация и совместная работа?<span>+</span></summary><p>В текущем выпуске облачная синхронизация и совместное редактирование отсутствуют. RoadMax предназначен для локальной работы. Проекты можно переносить через экспорт с вложениями.</p></details><details><summary>Где найти инструкцию и сообщить об ошибке?<span>+</span></summary><p>Откройте <a href="https://github.com/FORQO/RoadMax-Public/blob/main/docs/QUICK-START-RU.md">краткую инструкцию</a> или <a href="https://github.com/FORQO/RoadMax-Public/issues/new/choose">создайте обращение на GitHub</a>. Укажите версию приложения и шаги воспроизведения; используйте демонстрационные файлы.</p></details></div></section>
+</main>
+<footer class="wrap footer"><a class="brand" href="#"><img src="assets/roadmax-logo.png" width="30" height="30" alt=""><span>Road<span class="orange">Max</span></span></a><span>От идеи к результату — сохраняя контекст.</span><div><a href="https://github.com/FORQO/RoadMax-Public">GitHub ↗</a><a href="https://github.com/FORQO">FORQO ↗</a><small>© 2026 FORQO</small></div></footer>
+<dialog id="lightbox" aria-labelledby="lightbox-caption"><div class="lightbox-top"><span id="lightbox-caption" aria-live="polite"></span><button id="close-lightbox" type="button" aria-label="Закрыть снимок" autofocus>✕</button></div><img id="lightbox-image" alt=""><div class="lightbox-bottom"><button id="previous-image" type="button" aria-label="Предыдущий снимок">←</button><p><span id="lightbox-count"></span> · RoadMax 2.3.19 · Демонстрационные данные</p><button id="next-image" type="button" aria-label="Следующий снимок">→</button></div></dialog>
+<script src="app-2.3.19.js" defer></script>
+<script src="motion-2.3.19.js" defer></script>
+</body></html>

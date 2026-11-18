@@ -1,6 +1,6 @@
 ---
-name: Ошибка в тестовой сборке
-about: Сообщить о проблеме, если у вас уже есть сборка RoadMax
+name: Ошибка в RoadMax
+about: Сообщить о проблеме в приложении RoadMax
 title: ""
 labels: ""
 assignees: ""
@@ -8,7 +8,8 @@ assignees: ""
 
 ## Окружение
 - Версия RoadMax:
-- Версия Windows:
+- Операционная система и версия (Windows или macOS):
+- Процессор Mac, если применимо (Apple Silicon или Intel):
 
 ## Как воспроизвести
 1.

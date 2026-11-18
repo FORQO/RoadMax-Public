@@ -2,7 +2,11 @@
 
 <p align="center"><b>Идеи, планы и документы — в одном пространстве.</b><br>Локальное приложение для Windows и macOS от <a href="https://github.com/FORQO">FORQO</a>.</p>
 
-<p align="center"><b>Скачать RoadMax 2.3.22</b><br><a href="https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.22/RoadMax-Portable-2.3.22.exe">Windows x64 Portable</a> · <a href="https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.22/RoadMax-2.3.22-macOS-arm64.dmg">Mac с Apple Silicon</a> · <a href="https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.22/RoadMax-2.3.22-macOS-x64.dmg">Mac с Intel</a><br><a href="https://roadmax.dskforge.com/">Официальный сайт</a> · <a href="https://github.com/FORQO/RoadMax-Public/releases/tag/v2.3.22">Релиз и контрольные суммы</a> · <a href="docs/QUICK-START-RU.md">Как начать</a></p>
+<p align="center"><b>Скачать RoadMax 2.3.23</b><br><a href="https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.23/RoadMax-Portable-2.3.23.exe">Windows x64 Portable</a> · <a href="https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.23/RoadMax-2.3.23-macOS-arm64.dmg">Mac с Apple Silicon</a> · <a href="https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.23/RoadMax-2.3.23-macOS-x64.dmg">Mac с Intel</a><br><a href="https://roadmax.dskforge.com/">Официальный сайт</a> · <a href="https://github.com/FORQO/RoadMax-Public/releases/tag/v2.3.23">Релиз и контрольные суммы</a> · <a href="docs/QUICK-START-RU.md">Как начать</a></p>
+
+## Новое в RoadMax 2.3.23
+
+Точечная сетка использует повторяющийся фрагмент изображения. Это уменьшает рывки при перемещении и масштабировании доски. Проверены Windows x64, Mac с Apple Silicon и Mac с Intel. [Скачать выпуск и посмотреть результаты проверки](https://github.com/FORQO/RoadMax-Public/releases/tag/v2.3.23).
 
 ## Новое в RoadMax 2.3.22
 
@@ -32,7 +36,7 @@
 
 Здесь можно подготовить исследование, собрать материалы, спланировать запуск или организовать личные проекты. Проекты и папки в Dashboard помогают переходить от общей картины к конкретной доске, а встроенные редакторы — работать с её содержимым.
 
-Текущий публичный выпуск — **2.3.22 от 18 ноября 2026 года**. В этом репозитории размещены сборки для Windows и macOS, документация и материалы для пользователей. Исходный код приложения хранится в закрытом репозитории.
+Текущий публичный выпуск — **2.3.23 от 18 ноября 2026 года**. В этом репозитории размещены сборки для Windows и macOS, документация и материалы для пользователей. Исходный код приложения хранится в закрытом репозитории.
 
 ## Возможности
 
@@ -73,16 +77,17 @@
 
 ## Скачать и запустить
 
-**macOS.** Скачайте DMG для своего процессора, откройте образ и перетащите RoadMax в «Программы».
+Перед обновлением сохраните работу, выберите «Файл» → «Создать резервную копию…» и полностью закройте прежнюю версию RoadMax.
 
-**Windows.**
+| Система | Как запустить |
+| --- | --- |
+| Windows 10 или 11, x64 | Скачайте и запустите [RoadMax Portable](https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.23/RoadMax-Portable-2.3.23.exe). Установка не требуется. |
+| macOS 13 или новее, Apple Silicon | Скачайте [DMG для чипа Apple](https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.23/RoadMax-2.3.23-macOS-arm64.dmg). Откройте образ и перетащите RoadMax в «Программы». |
+| macOS 13 или новее, Intel | Скачайте [DMG для Intel](https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.23/RoadMax-2.3.23-macOS-x64.dmg). Откройте образ и перетащите RoadMax в «Программы». |
 
-1. Скачайте **[RoadMax-Portable-2.3.22.exe](https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.22/RoadMax-Portable-2.3.22.exe)** из раздела Assets релиза.
-2. Если RoadMax уже открыт, завершите его и запустите новый EXE. Установка не нужна.
-3. Доски и вложения сохраняются в `%APPDATA%\Flowboard\boards`. Portable запускается без установки, но данные не лежат рядом с EXE.
-4. Перед обновлением существующих данных создайте резервную копию через меню «Файл». Для переноса доски копируйте всю экспортированную папку: файл .roadmax и расположенные рядом вложения.
+Модель процессора Mac указана в меню Apple → «Об этом Mac». Windows EXE распространяется без подписи издателя, приложение для Mac — без нотарификации Apple. Для обновления скачайте новый выпуск вручную. [Контрольные суммы SHA-256](https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.23/SHA256SUMS.txt).
 
-Файл не имеет цифровой подписи издателя. Автоматическое обновление пока отсутствует. Сверить скачивание можно по **[SHA256SUMS.txt](https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.22/SHA256SUMS.txt)**; подробное управление — в **[краткой инструкции](docs/QUICK-START-RU.md)**.
+Доски и вложения хранятся в профиле пользователя. Папку можно открыть из меню «Файл» → «Открыть папку данных». Для переноса одной доски выберите «Файл» → «Сохранить проект в папку…» и скопируйте всю полученную папку с файлом `.roadmax` и вложениями. [Инструкция по работе с доской](docs/QUICK-START-RU.md).
 
 ## Форматы и ограничения
 
@@ -101,7 +106,7 @@
 
 В XLSX активный фильтр экспортируется диапазоном и текущими скрытыми строками, без критериев; требуется явное подтверждение. Для сканированного PDF без текстового слоя поиск по словам недоступен — OCR в выпуск не входит.
 
-Основная платформа выпуска — **Windows x64**. Синхронизация между компьютерами, облако и совместное редактирование пока отсутствуют. [Ограничения и проверки выпуска 1.5.0](docs/VERIFICATION-1.5.0.md).
+Доски хранятся локально. Для работы на другом компьютере перенесите экспортированный проект или резервную копию. Облачная синхронизация и совместное редактирование в этой версии отсутствуют. [Архив проверок версии 1.5.0](docs/VERIFICATION-1.5.0.md).
 
 ## Проверки выпуска 2.3.19
 
@@ -117,9 +122,9 @@
 
 **[Сообщить об ошибке или предложить улучшение](https://github.com/FORQO/RoadMax-Public/issues/new/choose)**
 
-Укажите версию RoadMax, Windows, шаги воспроизведения, ожидаемый и фактический результат. Для примеров используйте демонстрационные файлы без личных данных. Чтобы следить за выпусками, можно включить **Watch → Custom → Releases**.
+Укажите версию RoadMax, версию Windows или macOS, шаги воспроизведения и то, что произошло. На Mac укажите тип процессора. Если проблема связана с доской, полезно указать примерное число объектов и режим сетки. Для примеров используйте демонстрационные файлы без личных данных. Чтобы следить за выпусками, можно включить **Watch → Custom → Releases**.
 
-Лицензии сторонних компонентов и исходники LGPL-кодеков приложены к релизу. [Состав поставки и происхождение снимков версии 1.5.0](docs/RELEASE-MANIFEST.json).
+Размеры и SHA-256 файлов текущего выпуска приведены в [манифесте поставки](docs/RELEASE-MANIFEST.json). Материалы сторонних компонентов доступны отдельно. [Лицензии](https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.21/RoadMax-2.3.21-Third-Party-Notices.zip) · [Исходники кодеков](https://github.com/FORQO/RoadMax-Public/releases/download/v2.3.21/RoadMax-Image-Codecs-Source-2026-11-02.zip).
 
 ---
 

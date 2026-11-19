@@ -2,13 +2,15 @@
 
 [Русская версия](README.md)
 
-RoadMax is an offline whiteboard for Windows and macOS. Pin a source PDF next to your notes, mark a passage, and draw an arrow to the decision it supports. Boards and attachments stay on your computer. This public repository hosts desktop downloads, examples and user documentation.
+RoadMax is an offline whiteboard for Windows and macOS. Keep your notes, PDFs and project files on one board. Boards and attachments stay on your computer. This public repository hosts desktop downloads, examples and user documentation.
 
-| Download RoadMax 2.4.0 | How to open it |
+| RoadMax downloads | How to open it |
 | --- | --- |
-| [Windows 10/11 · x64 Portable](https://github.com/FORQO/RoadMax-Public/releases/download/v2.4.0/RoadMax-Portable-2.4.0.exe) | Run the EXE. |
-| [macOS 13+ · Apple Silicon](https://github.com/FORQO/RoadMax-Public/releases/download/v2.4.0/RoadMax-2.4.0-macOS-arm64.dmg) | Open the DMG and drag RoadMax into Applications. |
-| [macOS 13+ · Intel](https://github.com/FORQO/RoadMax-Public/releases/download/v2.4.0/RoadMax-2.4.0-macOS-x64.dmg) | Open the DMG and drag RoadMax into Applications. |
+| [Windows 10/11 · x64 Portable · 2.4.1](https://github.com/FORQO/RoadMax-Public/releases/download/v2.4.1/RoadMax-Portable-2.4.1.exe) | Run the EXE. |
+| [macOS 13+ · Apple Silicon · archived 2.4.0](https://github.com/FORQO/RoadMax-Public/releases/download/v2.4.0/RoadMax-2.4.0-macOS-arm64.dmg) | Open the DMG and drag RoadMax into Applications. |
+| [macOS 13+ · Intel · archived 2.4.0](https://github.com/FORQO/RoadMax-Public/releases/download/v2.4.0/RoadMax-2.4.0-macOS-x64.dmg) | Open the DMG and drag RoadMax into Applications. |
+
+**Windows 2.4.1** returns to the 2.3.24 line with paper stickers, a startup-only splash and a centered PDF close button. OCR and linked PDF quotations from 2.4.0 are not included. Back up your projects and test a copy before switching. There are no new macOS binaries.
 
 On a Mac, **About This Mac** shows whether you have an Apple chip or an Intel processor. The Windows executable is unsigned and the Mac builds are distributed without Apple notarization. To update, back up your work and quit the earlier version first. [Latest release and SHA-256 checksums](https://github.com/FORQO/RoadMax-Public/releases/latest)
 

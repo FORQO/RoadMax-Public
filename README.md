@@ -4,7 +4,9 @@
 
 **RoadMax — локальная доска для заметок, схем и документов на Windows и Mac.** Например, при подготовке выставки можно разложить фотографии по годам, отметить детали в PDF и соединить каждую находку с подписью для стенда. Доска и вложения хранятся на вашем компьютере.
 
-<p align="center"><b>Скачать RoadMax 2.4.0</b><br><a href="https://github.com/FORQO/RoadMax-Public/releases/download/v2.4.0/RoadMax-Portable-2.4.0.exe">Windows x64 Portable</a> · <a href="https://github.com/FORQO/RoadMax-Public/releases/download/v2.4.0/RoadMax-2.4.0-macOS-arm64.dmg">Mac с Apple Silicon</a> · <a href="https://github.com/FORQO/RoadMax-Public/releases/download/v2.4.0/RoadMax-2.4.0-macOS-x64.dmg">Mac с Intel</a><br><a href="https://roadmax.dskforge.com/">Официальный сайт</a> · <a href="https://github.com/FORQO/RoadMax-Public/releases/tag/v2.4.0">Релиз и контрольные суммы</a> · <a href="docs/QUICK-START-RU.md">Как начать</a></p>
+<p align="center"><b>Скачать RoadMax 2.4.1 для Windows</b><br><a href="https://github.com/FORQO/RoadMax-Public/releases/download/v2.4.1/RoadMax-Portable-2.4.1.exe">Windows x64 Portable</a> · <a href="https://github.com/FORQO/RoadMax-Public/releases/download/v2.4.0/RoadMax-2.4.0-macOS-arm64.dmg">Mac с Apple Silicon · архив 2.4.0</a> · <a href="https://github.com/FORQO/RoadMax-Public/releases/download/v2.4.0/RoadMax-2.4.0-macOS-x64.dmg">Mac с Intel · архив 2.4.0</a><br><a href="https://roadmax.dskforge.com/">Официальный сайт</a> · <a href="https://github.com/FORQO/RoadMax-Public/releases/tag/v2.4.1">Релиз и контрольные суммы Windows</a> · <a href="docs/QUICK-START-RU.md">Как начать</a></p>
+
+**Windows 2.4.1:** чистые стикеры, заставка только при запуске и исправленная кнопка закрытия PDF. Выпуск возвращается к ветке 2.3.24: OCR и связанные PDF-цитаты, описанные для 2.4.0, в нём отсутствуют. Перед переходом сделайте резервную копию. Новых DMG нет.
 
 [![Пример проекта в RoadMax: заметки, связи и документы на одной доске](assets/screenshots/2.4.0/en/board-light.webp)](assets/screenshots/2.4.0/en/board-light.webp)
 
@@ -78,7 +80,7 @@
 
 | Система | Как запустить |
 | --- | --- |
-| Windows 10 или 11, x64 | Скачайте и запустите [RoadMax Portable](https://github.com/FORQO/RoadMax-Public/releases/download/v2.4.0/RoadMax-Portable-2.4.0.exe). Установка не требуется. |
+| Windows 10 или 11, x64 | Скачайте и запустите [RoadMax Portable](https://github.com/FORQO/RoadMax-Public/releases/download/v2.4.1/RoadMax-Portable-2.4.1.exe). Установка не требуется. |
 | macOS 13 или новее, Apple Silicon | Скачайте [DMG для чипа Apple](https://github.com/FORQO/RoadMax-Public/releases/download/v2.4.0/RoadMax-2.4.0-macOS-arm64.dmg). Откройте образ и перетащите RoadMax в «Программы». |
 | macOS 13 или новее, Intel | Скачайте [DMG для Intel](https://github.com/FORQO/RoadMax-Public/releases/download/v2.4.0/RoadMax-2.4.0-macOS-x64.dmg). Откройте образ и перетащите RoadMax в «Программы». |
 
